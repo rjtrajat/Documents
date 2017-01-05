@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://web.whatsapp.com/ -->
+<html class="js cssanimations csstransitions webp webp-alpha webp-animation webp-lossless wf-roboto-n3-active wf-roboto-n4-active wf-roboto-n5-active wf-opensans-n4-active wf-opensans-n6-active wf-active" dir="ltr" manifest="/404.appcache"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>WhatsApp</title>
+<meta name="viewport" content="width=device-width">
+<meta name="google" content="notranslate">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="description" content="Quickly send and receive WhatsApp messages right from your computer.">
+<meta name="og:description" content="Quickly send and receive WhatsApp messages right from your computer.">
+<meta name="og:url" content="https://web.whatsapp.com/">
+<meta name="og:title" content="WhatsApp Web">
+<meta name="og:image" content="https://www.whatsapp.com/img/fb-post.jpg">
+
+<link id="favicon" rel="shortcut icon" href="blob:https://web.whatsapp.com/a728d791-d9da-4746-b3a3-adbf0c48f949" type="image/png">
+<link rel="apple-touch-icon" sizes="194x194" href="https://web.whatsapp.com/apple-touch-icon.png" type="image/png">
+
+<link rel="stylesheet" href="./WhatsApp_files/sprite_6f0ea6575638ad50bfd1.css">
+<link rel="stylesheet" id="style" href="./WhatsApp_files/style_010a9bb42f6939c9b50d.css">
+
+<style>
+html, body, #app {
+height: 100%;
+width: 100%;
+overflow: hidden;
+padding: 0;
+margin: 0;
+}
+
+#app {
+position: absolute;
+top: 0;
+left: 0;
+}
+
+#startup, #initial_startup {
+width: 100%;
+height: 100%;
+position: fixed;
+background-color: #f2f2f2;
+
+-moz-user-select: none;
+-webkit-user-select: none;
+
+display: flex;
+align-items: center;
+justify-content: center;
+display: -webkit-box;
+display: -webkit-flex;
+-webkit-align-items: center;
+-webkit-justify-content: center;
+flex-direction: column;
+-webkit-flex-direction: column;
+}
+
+.spinner-container {
+-webkit-animation: rotate 2s linear infinite;
+animation: rotate 2s linear infinite;
+z-index: 2;
+}
+
+.spinner-container .path {
+stroke-dasharray: 1,150; 
+stroke-dashoffset: 0;
+stroke: rgba(27, 154, 89, 0.7);
+stroke-linecap: round;
+-webkit-animation: dash 1.5s ease-in-out infinite;
+animation: dash 1.5s ease-in-out infinite;
+}
+
+#startup .spinner-container .path,
+#initial_startup .spinner-container .path {
+stroke: #acb9bf;
+}
+
+@keyframes rotate {
+100% { transform: rotate(360deg); }
+}
+@-webkit-keyframes rotate{
+100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes dash {
+0% {
+stroke-dasharray: 1,150;  
+stroke-dashoffset: 0;
+}
+50% {
+stroke-dasharray: 90,150; 
+stroke-dashoffset: -35;   
+}
+100% {
+stroke-dasharray: 90,150; 
+stroke-dashoffset: -124;  
+}
+}
+@-webkit-keyframes dash {
+0% {
+stroke-dasharray: 1,150;  
+stroke-dashoffset: 0;
+}
+50% {
+stroke-dasharray: 90,150; 
+stroke-dashoffset: -35;   
+}
+100% {
+stroke-dasharray: 90,150; 
+stroke-dashoffset: -124;  
+}
+}
+
+.progress-container {
+width: 360px;
+position: fixed;
+padding-top: 120px;
+top: 50%;
+left: 50%;
+margin-left: -180px;
+}
+
+@keyframes appear {
+0% {
+opacity: 0.5;
+transform: scaleY(0);
+}
+100% {
+opacity: 1;
+transform: scaleY(1);
+}
+}
+@-webkit-keyframes appear {
+0% {
+opacity: 0.5;
+transform: scaleY(0);
+}
+100% {
+opacity: 1;
+transform: scaleY(1);
+}
+}
+
+progress {
+-webkit-appearance: none;
+appearance: none;
+width: 100%;
+height: 3px;
+border: none;
+margin: 0;
+opacity: 0;
+
+animation: appear .3s ease-out forwards;
+animation-delay: .2s;
+-webkit-animation: appear .3s ease-out forwards;
+-webkit-animation-delay: .2s;
+
+color: #02d1a4;
+background-color: #e0e4e5;
+}
+
+progress[value]::-webkit-progress-bar {
+background-color: #e0e4e5;
+}
+
+progress[value]::-webkit-progress-value {
+background-color: #02d1a4;
+}
+
+progress[value]::-moz-progress-bar {
+background-color: #02d1a4;
+}
+</style>
+<script id="progress_script_0" type="text/javascript" charset="utf-8" async="" src="./WhatsApp_files/vendor1_a1ca37909dfb1eb4d886.js.download"></script><script id="progress_script_1" type="text/javascript" charset="utf-8" async="" src="./WhatsApp_files/vendor2_97fbe2b3c08f4fc42b7a.js.download"></script><script id="progress_script_2" type="text/javascript" charset="utf-8" async="" src="./WhatsApp_files/app_ac8346fe9c3ec36d4136.js.download"></script><link rel="stylesheet" href="./WhatsApp_files/css" media="all"><script type="text/javascript" charset="utf-8" async="" src="./WhatsApp_files/main_90901331917d9c9fd828.js.download"></script><style id="asset-style" type="text/css"></style><script type="text/javascript" charset="utf-8" async="" src="./WhatsApp_files/main_90901331917d9c9fd828.js.download"></script></head>
+<body>
+<div id="app"><div data-reactroot="" class="app-wrapper app-wrapper-web app-wrapper-main"><span></span><span></span><span></span><span><div tabindex="-1" class="dropdown velocity-animating" style="transform-origin: left top 0px; left: 262px; top: 294px; transform: scale(0.67814); opacity: 0.944799;"><ul><li tabindex="-1" class="menu-item menu-shortcut velocity-animating"><a class="ellipsify" title="View photo">View photo</a></li><li tabindex="-1" class="menu-item menu-shortcut"><a class="ellipsify" title="Take photo">Take photo</a></li><li tabindex="-1" class="menu-item menu-shortcut"><a class="ellipsify" title="Upload photo">Upload photo</a></li><li tabindex="-1" class="menu-item menu-shortcut"><a class="ellipsify" title="Remove photo">Remove photo</a></li></ul></div></span><span></span><div tabindex="-1" class="app two"><!-- react-empty: 11 --><!-- react-empty: 12 --><div class="drawer-manager"><span class="pane pane-one"><div class="drawer drawer-profile" style="transform: translateX(0px);"><header class="drawer-header"><div class="pane-header drawer-title" style="background-color: transparent; padding: 0px; opacity: 1; transform: translateX(0px);"><div class="drawer-title-action" style="text-align: initial; width: 54px;"><span class="icon btn-close-drawer icon-back-light"></span></div><span class="drawer-title-body" style="font-weight: 500; font-size: 19px; line-height: normal;">Profile and status</span></div></header><div class="drawer-body"><div class="drawer-section drawer-scale drawer-section-photo"><div class="avatar-picker"><div class="avatar avatar-l draggable-container icon-user-default" dir="ltr"><div class="avatar-body"><div class="object-fit object-fit-cover"><div style="width: 200px; height: 200px; top: 0px; left: 0px; position: absolute;"><img src="./WhatsApp_files/pp" style="height: 100%; width: 100%;"></div></div></div><span><div class="avatar-overlay" style="opacity: 1;"><span class="icon icon-camera-light"></span><div class="avatar-overlay-text">Change profile photo</div></div></span></div><span></span><span></span><input type="file" accept="image/gif,image/jpeg,image/jpg,image/png" style="display: none;"><!-- react-empty: 423 --></div></div><div class="animate-enter1 well-input drawer-section well"><div class="row drawer-section-title"><div class="row-body"><div class="row-main ellipsify">Your Name</div></div></div><div class="drawer-section-body"><div tabindex="-1" class="text-input no-placeholder"><span class="label-text label-text-float"></span><div class="input-spacer"></div><div class="input-wrapper locked" data-trump-dominateparent="click"><div class="input-emoji"><div dir="auto" contenteditable="false" class="input input-text">RAJAT SINGH</div></div><div class="textinput-controls"><span class="control-button-container"><span class="lock-icon icon icon-pencil" title="Edit"></span></span><span class="control-button-container"></span><div class="control-button-container char-counter"><div class="char-counter"></div></div></div></div></div></div></div><div class="hint animate-enter1 well-transparent">This is not your username or pin. This name will be visible to your WhatsApp contacts.</div><div class="animate-enter1 well-input drawer-section well"><div class="row drawer-section-title"><div class="row-body"><div class="row-main ellipsify">Status</div></div></div><div class="drawer-section-body"><div tabindex="-1" class="text-input no-placeholder"><span class="label-text label-text-float"></span><div class="input-spacer"></div><div class="input-wrapper locked" data-trump-dominateparent="click"><div class="input-emoji"><div dir="auto" contenteditable="false" class="input input-text">Busy</div></div><div class="textinput-controls"><span class="control-button-container"><span class="lock-icon icon icon-pencil" title="Edit"></span></span><span class="control-button-container"></span><div class="control-button-container char-counter"><div class="char-counter"></div></div></div></div></div></div></div></div></div></span><span class="pane pane-two"></span><span class="pane pane-three"></span></div><div id="side" class="pane pane-list pane-one"><header class="pane-header pane-list-header"><div class="pane-list-user"><div class="avatar icon-user-default" style="height: 40px; width: 40px; cursor: pointer;"><div class="avatar-body"><img src="./WhatsApp_files/pp(1)" class="avatar-image is-loaded"></div></div></div><div class="pane-list-controls"><div class="menu menu-horizontal"><span><div class="menu-item"><button class="icon icon-chat" title="New chat"></button><span></span></div><div class="menu-item"><button class="icon icon-menu" title="Menu"></button><span></span></div></span></div></div></header><div class="butterbar-container"><span></span></div><div tabindex="-1" class="search-container"><div class="pane-subheader pane-list-subheader subheader-search"><button class="icon icon-search-morph"><div class="icon icon-back-blue"></div><div class="icon icon-search"></div></button><span></span><div class="input-placeholder">Search or start new chat</div><label for="input-chatlist-search" class="cont-input-search"><input type="text" class="input input-search" data-tab="2" dir="auto" spellcheck="false" title="Search or start new chat" value=""></label></div></div><div class="pane-body pane-list-body" id="pane-side" data-list-scroll-container="true"><div tabindex="-1" data-tab="3"><div class="infinite-list chatlist infinite-list-animate"><div class="infinite-list-viewport" style="height: 3312px;"><div class="first infinite-list-item infinite-list-item-transition" style="z-index: 45; height: 72px; transform: translate3d(0px, 0px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-user-default"><div class="avatar-body"><img src="./WhatsApp_files/pp(2)" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="Nikhil Arora"><!-- react-text: 69 -->Nikhil Arora<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">1:17 PM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Happy new year bhai‬"><span class="icon icon-status-dblcheck"></span><span class="emojitext ellipsify" dir="ltr"><!-- react-text: 258 -->Happy new year bhai<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 40; height: 72px; transform: translate3d(0px, 360px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-user-default"><div class="avatar-body"><img src="./WhatsApp_files/pp(3)" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="§Amit Singh MM"><!-- react-text: 88 -->§Amit Singh MM<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">11:09 AM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Happy new year 🙂‬"><span class="icon icon-status-dblcheck-ack"></span><span class="emojitext ellipsify" dir="ltr"><!-- react-text: 299 -->Happy new year <!-- /react-text --><img alt="🙂" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="emoji emojiordered1522"></span></div><div class="chat-meta"><span></span><span></span><span></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 37; height: 72px; transform: translate3d(0px, 576px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-user-default"><div class="avatar-body"><img src="./WhatsApp_files/pp(4)" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="Manish Bhaiya"><!-- react-text: 107 -->Manish Bhaiya<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">9:53 AM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Happy new year bhaiya‬"><span class="icon icon-status-dblcheck-ack"></span><span class="emojitext ellipsify" dir="ltr"><!-- react-text: 293 -->Happy new year bhaiya<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 36; height: 72px; transform: translate3d(0px, 648px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-user-default"><div class="avatar-body"><img src="./WhatsApp_files/pp(5)" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="+91 91254 39960"><!-- react-text: 126 -->+91 91254 39960<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">9:01 AM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Happy new year 🙂‬"><span class="icon icon-status-dblcheck"></span><span class="emojitext ellipsify" dir="ltr"><!-- react-text: 280 -->Happy new year <!-- /react-text --><img alt="🙂" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="emoji emojiordered1522"></span></div><div class="chat-meta"><span></span><span></span><span></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 43; height: 72px; transform: translate3d(0px, 144px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-group-default"><div class="avatar-body"><img src="./WhatsApp_files/pp(6)" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="Singh Khandaan 😎😝🔫"><!-- react-text: 145 -->Singh Khandaan <!-- /react-text --><img alt="😎" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="emoji emojiordered1470"><img alt="😝" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="emoji emojiordered1485"><img alt="🔫" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="emoji emojiordered1339"></span></div><div class="chat-meta"><span class="chat-time">12:39 PM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪GIF‬"><span class="chat-status-name number" dir="auto"><!-- react-text: 325 -->+91 72738 41973<!-- /react-text --></span><span class="chat-status-divider">:</span><span class="icon media-icon icon-status-gif"></span><span class="emojitext ellipsify"><!-- react-text: 329 -->GIF<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 38; height: 72px; transform: translate3d(0px, 504px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-user-default"><div class="avatar-body"><img src="./WhatsApp_files/pp(7)" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="Harsh ishadi"><!-- react-text: 167 -->Harsh ishadi<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">9:55 AM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Happy new year 🙂‬"><span class="icon icon-status-dblcheck-ack"></span><span class="emojitext ellipsify" dir="ltr"><!-- react-text: 273 -->Happy new year <!-- /react-text --><img alt="🙂" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="emoji emojiordered1522"></span></div><div class="chat-meta"><span></span><span></span><span></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 35; height: 72px; transform: translate3d(0px, 720px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-user-default"><div class="avatar-body"><img src="https://dyn.web.whatsapp.com/pp?t=s&amp;u=919711713017%40c.us&amp;i=1480942708&amp;ref=0%40z3sontI51bFnoRsbn%2FmtNjdpvzPfMX9ZO4bYpq0VgyRImALCLT%2B9lwaP&amp;tok=0%40jzmfGS3eZJ4ne7l4svUnV7Pez25aik6Abo%2FEffDeNaiE2CaOf%2B2rGPAum3ZdrNp1sJcae%2FvCmM%2B7UA%3D%3D" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="Amit Kumar Samsung"><!-- react-text: 407 -->Amit Kumar Samsung<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">8:58 AM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Happy new year Sir ji 🙂‬"><span class="icon icon-status-dblcheck-ack"></span><span class="emojitext ellipsify" dir="ltr"><!-- react-text: 414 -->Happy new year Sir ji <!-- /react-text --><img alt="🙂" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="emoji emojiordered1522"></span></div><div class="chat-meta"><span></span><span></span><span></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 41; height: 72px; transform: translate3d(0px, 288px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-group-default"><div class="avatar-body"><img src="./WhatsApp_files/pp(8)" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="🍺Happy new year 🎉🎂"><img alt="🍺" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="emoji emojiordered0611"><!-- react-text: 187 -->Happy new year <!-- /react-text --><img alt="🎉" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="emoji emojiordered0631"><img alt="🎂" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="emoji emojiordered0619"></span></div><div class="chat-meta"><span class="chat-time">11:46 AM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Photo‬"><span class="chat-status-name" dir="auto"><!-- react-text: 307 -->Swapnil<!-- /react-text --></span><span class="chat-status-divider">:</span><span class="icon media-icon icon-status-image"></span><span class="emojitext ellipsify"><!-- react-text: 311 -->Photo<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 44; height: 72px; transform: translate3d(0px, 72px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-group-default"><div class="avatar-body"><img src="./WhatsApp_files/pp(9)" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="CSE 12-16 Rockstars"><!-- react-text: 208 -->CSE 12-16 Rockstars<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">1:06 PM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪😂😜‬"><span class="chat-status-name number" dir="auto"><!-- react-text: 263 -->+91 70224 77541<!-- /react-text --></span><span class="chat-status-divider">:</span><span class="emojitext ellipsify"><img alt="😂" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="emoji emojiordered1458"><img alt="😜" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="emoji emojiordered1484"></span></div><div class="chat-meta"><span></span><span></span><span></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 42; height: 72px; transform: translate3d(0px, 216px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-user-default"><div class="avatar-body"><img src="./WhatsApp_files/pp(10)" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="+91 99732 17143"><!-- react-text: 226 -->+91 99732 17143<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">12:14 PM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪🍺🍺‬"><span class="emojitext ellipsify"><img alt="🍺" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="emoji emojiordered0611"><img alt="🍺" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="emoji emojiordered0611"></span></div><div class="chat-meta"><span></span><span></span><span></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 39; height: 72px; transform: translate3d(0px, 432px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-group-default"><div class="avatar-body"><img src="./WhatsApp_files/pp(11)" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="FrameServer"><!-- react-text: 245 -->FrameServer<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">10:38 AM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Photo‬"><span class="chat-status-name" dir="auto"><!-- react-text: 316 -->Amit<!-- /react-text --></span><span class="chat-status-divider">:</span><span class="icon media-icon icon-status-image"></span><span class="emojitext ellipsify"><!-- react-text: 320 -->Photo<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span></span></div></div></div></div></div></div></div></div></div></div></div><div class="pane pane-intro pane-two"><div class="intro-body"><div class="intro-image" style="opacity: 1; transform: scale(1);"></div><div class="intro-text-container" style="opacity: 1; transform: translateY(0px);"><h1 class="intro-title">Keep your phone connected</h1><div class="intro-text">WhatsApp connects to your phone to sync messages. To reduce data usage, connect your phone to Wi-Fi.</div></div></div></div></div></div></div>
+
+
+
+<script src="./WhatsApp_files/progress_e255aa82dfc08a03f3e15a40a6bbe7de.js.download"></script>
+
+
+
+
+</body></html>
