@@ -1,0 +1,11 @@
+1.address does not come if gps is off not wifi
+--2.Loading msg should be there on Detail page
+3. Schedulling msg should be there on schedulepage
+--4.on Clicking Doctors, Hospitals , Test centers and Medicals Should Loading msg
+--5. Change for Medical shop detail
+--6.List of Doctors should come automatically
+7. If on activity page should not open from splash image
+--8. Appointment detail page should have loading msg
+--9. Appointment deatail  should also have test center check facility
+--10. location null showing some time
+11. validator mail ,number ,char
